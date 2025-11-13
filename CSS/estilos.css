@@ -1,0 +1,155 @@
+/* ========== ESTILO GENERAL ========== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    text-align: center;
+}
+
+/* ========== HEADER ========== */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* ========== MENÚ ========== */
+.menu {
+    list-style: none;
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #ffcc00;
+}
+
+/* ========== ARTICLE & SECCIONES ========== */
+article {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+/* Caja para información agregada del article dentro de section */
+section article {
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+/* ========== FORMULARIO ========== */
+.formulario {
+    background-color: white;
+    width: 320px;
+    margin: 50px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-align: left;
+}
+
+.formulario h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-top: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.botones {
+    text-align: center;
+    margin-top: 15px;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.enviar {
+    background-color: #28a745;
+}
+
+.borrar {
+    background-color: #dc3545;
+}
+
+/* ========== TABLA DE PRODUCTOS ========== */
+
+.tabla-productos {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: white;
+}
+
+.tabla-productos th,
+.tabla-productos td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.tabla-productos th {
+    background-color: #eaeaea;
+    font-weight: bold;
+}
+
+.tabla-productos tr:hover {
+    background-color: #f0f0f0;
+}
+
+.tabla-productos img {
+    transition: transform 0.3s ease;
+}
+
+.tabla-productos img:hover {
+    transform: scale(1.1);
+}
+
+/* ========== FOOTER ========== */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    margin-top: 30px;
+    position: relative;
+    z-index: 10;
+}
